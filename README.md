@@ -1,16 +1,47 @@
-# mobile_3
+# Flutter Counter App / Gendin Nikolay
 
-A new Flutter project.
+Это простое приложение на Flutter, которое демонстрирует использование состояния (state) для управления счетчиком. Приложение позволяет пользователю увеличивать, уменьшать и сбрасывать значение счетчика.
 
-## Getting Started
+## Описание
 
-This project is a starting point for a Flutter application.
+Приложение состоит из двух основных страниц:
+- **MyApp**: Корневой виджет, который устанавливает материальный дизайн и тему приложения.
+- **MyHomePage**: Основная страница, на которой отображается текущее значение счетчика и кнопки для управления им.
 
-A few resources to get you started if this is your first Flutter project:
+## Функциональность
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Инкремент**: Увеличивает значение счетчика на 1.
+- **Декремент**: Уменьшает значение счетчика на 1, если оно больше 0.
+- **Сброс**: Сбрасывает значение счетчика до 0.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Установка
+
+1. Убедитесь, что у вас установлен [Flutter SDK](https://flutter.dev/docs/get-started/install).
+2. Склонируйте репозиторий или скопируйте код в новый проект Flutter.
+3. Перейдите в директорию проекта и выполните команду:
+   ```sh
+   flutter pub get
+   ```
+4. Запустите приложение на эмуляторе или физическом устройстве:
+   ```sh
+   flutter run
+   ```
+
+## Использование
+
+- Запустите приложение на устройстве или эмуляторе.
+- Используйте кнопки "+" и "-" для изменения значения счетчика.
+- Нажмите кнопку "Сбросить", чтобы вернуть значение счетчика к 0.
+
+## Структура проекта
+
+- `lib/main.dart`: Основной файл, содержащий точку входа в приложение и определение виджетов `MyApp` и `MyHomePage`.
+
+## Зависимости
+
+Приложение использует только стандартные пакеты Flutter и Dart, поэтому дополнительные зависимости не требуются.
+
+---
+
+Спасибо за использование Flutter Counter App!
+```
